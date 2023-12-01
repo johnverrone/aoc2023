@@ -14,5 +14,5 @@ export async function readFileAsText(context: string) {
     throw new Error('Failed to find input file');
   }
   const path = resolve(join(context, filePath));
-  return file(path).text();
+  return (await file(path).text()).trim();
 }

@@ -11,3 +11,7 @@ Started a little tougher on part 2 than I was hoping for 😂. I really wanted t
 ### Day 02
 
 A very verbose approach but it was fun to create an appropriate data structure for a `Game`. This made part 2 pretty easy as well. Didn't solve either part in O(n) but whatevs. Was nice to get both answers right on the first try. The power of organizing the data right. Also learned a little more about how JavaScript regex matching works.
+
+### Day 03
+
+Did not do this one on actual day 3, but it was fun! Tested a bit of regex skills, tried to be smart about runtime complexity while parsing 2d arrays. React has tended to make me program in a way more functional way (no variables, use functional array methods like `.map`) but it was refreshing to go back to using some `for` loops and pushing to a solution array.

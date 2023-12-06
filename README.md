@@ -15,3 +15,7 @@ A very verbose approach but it was fun to create an appropriate data structure f
 ### Day 03
 
 Did not do this one on actual day 3, but it was fun! Tested a bit of regex skills, tried to be smart about runtime complexity while parsing 2d arrays. React has tended to make me program in a way more functional way (no variables, use functional array methods like `.map`) but it was refreshing to go back to using some `for` loops and pushing to a solution array.
+
+### Day 04
+
+Part 1 was frustrating because my string split was caused `""` to result in extra winning numbers. It took me very long to do part 2 mainly because I was distracted by the TV. Okay problem, thought I was going to have to do some recursion or "while copies exists" logic but since winning numbers only resulted in copies futher down the list you could do this linearly.
